@@ -1,0 +1,52 @@
+.container {
+    background-color: #000000; /* Fundo escuro */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px #e9e2e7;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Fundo escuro */
+    color: #ffffff; /* Texto branco para contraste */
+}
+
+header {
+    background-color: #000000; /* Fundo escuro no cabeçalho */
+    box-shadow: 0 2px 5px #e9e2e7;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito ao passar o mouse */
+}
+
+
+#series-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Espaçamento entre os cards */
+}
+
+.card {
+    width: 18rem; /* Largura consistente para os cards */
+    transition: transform 0.2s;
+}
+
+.card img {
+    height: 450px; /* Altura uniforme para as imagens */
+    object-fit: cover; /* Garante ajuste proporcional da imagem */
+}
+
+
+.btn-outline-primary {
+    border-color: #b80591;
+    color: #0a0a0a;
+}
+
+.btn-outline-primary:hover {
+    background-color: #000000;
+    color: white;
+}
